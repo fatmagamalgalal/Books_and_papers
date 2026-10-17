@@ -1,5 +1,8 @@
 docs_folder: "_docs"              # Folder where documentation will be saved
-include_extensions: [".pdf", ".py", ".ts", ".go"] # Languages to document
+# "directory" mode forces it to focus on mapping out folders and workflows
+output_mode: "directory" 
+
+include_extensions: [".pdf", ".py"] # Languages to document
 exclude:                          # Folders/files to skip
   - "node_modules/**"
   - "dist/**"
